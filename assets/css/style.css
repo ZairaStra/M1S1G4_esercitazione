@@ -21,10 +21,37 @@ header h4 {
   color: white;
   margin-block: 20px;
 }
+header a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  line-height: 1.5;
+}
 /* MAIN */
+h1 {
+  font-weight: bold;
+  padding-block: 10px;
+}
+
+h3 {
+  color: rgb(211 211 211);
+}
 
 /* ELEMENTI NEL MAIN - ARTICLE */
+article {
+  display: inline-block;
+  text-align: justify;
+  margin-right: 10px;
+  padding: 15px;
+  line-height: 1.5;
+}
 
+article p ul li {
+  list-style-type: disc;
+}
+article div ol li {
+  list-style-type: decimal;
+}
 /* TABELLE */
 
 /* FORM */
