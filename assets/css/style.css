@@ -3,14 +3,13 @@
 body {
   font-family: "Poppins";
   background-image: image(sfondo);
-  max-width: 80%;
+  max-width: 90%;
   display: inline-block;
   margin-right: 50%;
   margin-left: 50%;
 }
 /* HEADER */
 header {
-  width: 80%;
   height: 200px;
   background-color: rgb(45, 98, 163);
   text-align: center;
@@ -22,7 +21,7 @@ header img {
 }
 header h4 {
   color: white;
-  margin-block: 20px;
+  margin-inline: auto;
 }
 header a {
   display: block;
