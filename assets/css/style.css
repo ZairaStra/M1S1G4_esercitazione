@@ -51,6 +51,10 @@ article {
 p {
   margin-block: 10px;
 }
+ul,
+ol {
+  padding-left: 20px;
+}
 
 ul li {
   list-style-type: disc;
