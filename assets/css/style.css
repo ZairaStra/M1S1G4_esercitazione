@@ -78,9 +78,9 @@ thead {
   background-color: rgb(59, 59, 169);
   padding: 20px;
 }
-th,
-td {
+th {
   width: 33%;
+  color: white;
 }
 
 /* FORM */
