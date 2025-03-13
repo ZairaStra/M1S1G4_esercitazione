@@ -62,9 +62,27 @@ ol li {
 }
 /* TABELLE */
 caption {
+  display: block;
   font-style: italic;
   font-weight: bold;
 }
+table {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+thead {
+  display: inline-block;
+  width: 100%;
+  background-color: rgb(59, 59, 169);
+  padding: 20px;
+}
+th,
+td {
+  width: 33%;
+}
+
 /* FORM */
 
 /* ELEMENTI NELL' ASIDE */
