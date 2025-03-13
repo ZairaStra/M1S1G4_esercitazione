@@ -4,6 +4,9 @@ body {
   font-family: "Poppins";
   background-image: image(sfondo);
   max-width: 80%;
+  display: inline-block;
+  margin-right: 50%;
+  margin-left: 50%;
 }
 /* HEADER */
 header {
